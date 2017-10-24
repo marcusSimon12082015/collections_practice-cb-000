@@ -17,7 +17,7 @@ def sort_array_char_count(list)
 end
 
 def swap_elements(list)
-  temp = list[0]
-  list[0] = list[1]
-  list[1] = temp
+  temp = list[1]
+  list[1] = list[2]
+  list[2] = temp
 end
