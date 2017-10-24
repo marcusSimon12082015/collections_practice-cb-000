@@ -1,0 +1,44 @@
+
+collections practice
+  #sort_array_asc
+    should return an array sorted in ascending order
+  #sort_array_desc
+    should return an array sorted in descending order
+  #sort_array_char_count
+    should return an array in ascending order sorted by the number of characters in the string
+  #swap_elements
+    swap the second and third elements of an array
+  #reverse_array
+    reverse the order of an array of integers
+  #kesha_maker
+    taking an array as an input, change the 3rd character of each element to a dollar sign.
+  #find_a
+    find all words that begin with "a" in the following array
+  #sum_array
+    sum all the numbers in the following array
+  #add_s
+    Add an "s" to each word in the array except for the 2nd element in the array (FAILED - 1)
+
+Failures:
+
+  1) collections practice #add_s Add an "s" to each word in the array except for the 2nd element in the array
+     Failure/Error: expect(add_s(["hand","feet", "knee", "table"])).to eq(["hands","feet", "knees", "tables"])
+
+     NoMethodError:
+       undefined method `sub' for 0:Fixnum
+       Did you mean?  stub
+     # ./collections_practice.rb:56:in `block in add_s'
+     # ./collections_practice.rb:54:in `each'
+     # ./collections_practice.rb:54:in `each_with_index'
+     # ./collections_practice.rb:54:in `each'
+     # ./collections_practice.rb:54:in `collect'
+     # ./collections_practice.rb:54:in `add_s'
+     # ./spec/collections_practice_spec.rb:66:in `block (3 levels) in <top (required)>'
+
+Finished in 0.00839 seconds (files took 0.18229 seconds to load)
+9 examples, 1 failure
+
+Failed examples:
+
+rspec ./spec/collections_practice_spec.rb:65 # collections practice #add_s Add an "s" to each word in the array except for the 2nd element in the array
+
