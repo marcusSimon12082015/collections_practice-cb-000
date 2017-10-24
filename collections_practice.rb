@@ -34,7 +34,7 @@ end
 def kesha_maker(list)
   collection = []
   list.each do | value |
-    collection << value[2] = "$"
+    collection << value.insert(2,'$')
   end
   collection
 end
