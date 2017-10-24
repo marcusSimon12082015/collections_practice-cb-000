@@ -30,3 +30,11 @@ def reverse_array(list)
   end
   collection
 end
+
+def kesha_maker(list)
+  collection = []
+  list.each do | value |
+    collection << value[2] = "$"
+  end
+  collection  
+end
