@@ -17,28 +17,8 @@ collections practice
   #sum_array
     sum all the numbers in the following array
   #add_s
-    Add an "s" to each word in the array except for the 2nd element in the array (FAILED - 1)
+    Add an "s" to each word in the array except for the 2nd element in the array
 
-Failures:
-
-  1) collections practice #add_s Add an "s" to each word in the array except for the 2nd element in the array
-     Failure/Error: expect(add_s(["hand","feet", "knee", "table"])).to eq(["hands","feet", "knees", "tables"])
-
-       expected: ["hands", "feet", "knees", "tables"]
-            got: ["hands", nil, "knees", "tables"]
-
-       (compared using ==)
-
-       Diff:
-       @@ -1,2 +1,2 @@
-       -["hands", "feet", "knees", "tables"]
-       +["hands", nil, "knees", "tables"]
-     # ./spec/collections_practice_spec.rb:66:in `block (3 levels) in <top (required)>'
-
-Finished in 0.02733 seconds (files took 0.21819 seconds to load)
-9 examples, 1 failure
-
-Failed examples:
-
-rspec ./spec/collections_practice_spec.rb:65 # collections practice #add_s Add an "s" to each word in the array except for the 2nd element in the array
+Finished in 0.00859 seconds (files took 0.19447 seconds to load)
+9 examples, 0 failures
 
