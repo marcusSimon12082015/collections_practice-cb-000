@@ -47,5 +47,5 @@ def find_a(list)
 end
 
 def sum_array(list)
-  list.inject{| sum | sum + n}
+  list.inject{|sum,n | sum + n}
 end
