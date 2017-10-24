@@ -24,5 +24,9 @@ def swap_elements(list)
 end
 
 def reverse_array(list)
-  
+  collection = []
+  list.each_with_index do | value, index |
+    collection << list[-(index+1)]
+  end
+  collection
 end
