@@ -35,7 +35,7 @@ Failures:
      # ./collections_practice.rb:54:in `add_s'
      # ./spec/collections_practice_spec.rb:66:in `block (3 levels) in <top (required)>'
 
-Finished in 0.00411 seconds (files took 0.20407 seconds to load)
+Finished in 0.00724 seconds (files took 0.21735 seconds to load)
 9 examples, 1 failure
 
 Failed examples:
