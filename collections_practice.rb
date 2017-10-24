@@ -53,7 +53,7 @@ end
 def add_s(list)
   list.each_with_index.collect{|index,element|
     if index != 1
-      element + "s"
+      puts "#{element}"
     end
   }
 end
