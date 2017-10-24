@@ -49,3 +49,11 @@ end
 def sum_array(list)
   list.inject{|sum,n | sum + n}
 end
+
+def add_s(list)
+  list.each_with_index.collect{|index,element| 
+    if index != 1
+      element.sub((list.size-1), "s")
+    end
+  }
+end
