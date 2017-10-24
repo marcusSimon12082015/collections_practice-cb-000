@@ -22,3 +22,7 @@ def swap_elements(list)
   list[2] = temp
   list
 end
+
+def reverse_array(list)
+  
+end
