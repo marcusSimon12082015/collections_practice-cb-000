@@ -45,3 +45,7 @@ def find_a(list)
     value.start_with?('a')
   end
 end
+
+def sum_array(list)
+  list.inject{| sum | sum + n}
+end
